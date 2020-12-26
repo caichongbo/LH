@@ -94,7 +94,6 @@ class TestStrategy(bt.Strategy):
         #     if self.sma5[0] < self.sma10[0]:
         #         self.order = self.sell()
 
-
         # if not self.position:
         if self.dataclose > self.sma5:
             if self.sma5 > self.sma10:
